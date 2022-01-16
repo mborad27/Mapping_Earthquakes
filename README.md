@@ -1,1 +1,7 @@
-# Mapping_Earthquakes
+# Mapping Earthquakes with JavaScript, Mapbox, and HTML
+## Overview
+The Diaster Reporting Network is a nonprofit company that provides data-driven storytelling on disasters around the world. As the data visualization specialist, we are to build insightful data visualizations with interactive features on earthquakes from all around the world. 
+
+Basil, the head of the earthquake diaster response team, surmises that our project is highly useful for his team that includes reporters and other data visualization specialists. He hopes that making these informative earthquake maps that are easy to use on desktop and mobile will generate some positive exposure about the Disaster Reporting Network. We supported website and mobile application development by using the latest earthquake GeoJSON data from the US Geological Survey website. We retrieved the data using JavaScript and the D3 leaflet libraries. We plotted the data on a Mapbox map through and API request. Our map displays the magnitude and location of each earthquake on a popup marker. The diameter of the markers for each earthquake reflect the magnitude in their size and color. The earthquakes with higher magnitudes are larger and darker in color (the is a legend providing the context of our map). In addition, we have also included fault lines on our map to illustrate the releationship between the location and frequency of seismic activity and tectonic plates.
+
+Basil appreciated us creating the earthquake maps, but would also like to see the earthquake data in relation to the tectonic plates' location on earth. In addition, he would also be grateful if we could see all the earthquakes with a magnitude greater than 4.5 on a third map.
